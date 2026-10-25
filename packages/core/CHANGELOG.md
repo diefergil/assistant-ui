@@ -1,5 +1,17 @@
 # @assistant-ui/core
 
+## 0.3.32
+
+### Patch Changes
+
+- [#10101](https://github.com/assistant-ui/assistant-ui/pull/10101) [`e0b8d19`](https://github.com/assistant-ui/assistant-ui/commit/e0b8d1905ead37a913a2161e98cdf6e9a8a91d24) - fix: reopen rejected edits for retry without replacing newer drafts ([@Kinfe123](https://github.com/Kinfe123))
+
+- [#10023](https://github.com/assistant-ui/assistant-ui/pull/10023) [`24b84e5`](https://github.com/assistant-ui/assistant-ui/commit/24b84e51911a539b20c9f7000f64c09e6c9f253e) - delete stored cloud messages, and remove a prompt a stop moved back into the composer from any history adapter that implements `delete` ([@okisdev](https://github.com/okisdev))
+
+- [#10052](https://github.com/assistant-ui/assistant-ui/pull/10052) [`86eb7d4`](https://github.com/assistant-ui/assistant-ui/commit/86eb7d42c396d948e0b591eb37fee94f2a6791f5) - link cloud run reports to the user message that started the turn ([@okisdev](https://github.com/okisdev))
+- Updated dependencies [[`24b84e5`](https://github.com/assistant-ui/assistant-ui/commit/24b84e51911a539b20c9f7000f64c09e6c9f253e), [`86eb7d4`](https://github.com/assistant-ui/assistant-ui/commit/86eb7d42c396d948e0b591eb37fee94f2a6791f5)]:
+  - assistant-cloud@0.2.9
+
 ## 0.3.31
 
 ### Patch Changes
